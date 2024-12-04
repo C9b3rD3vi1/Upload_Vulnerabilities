@@ -14,6 +14,16 @@ Using your favourite text editor in an administrative session, open the hosts fi
 
 On Linux and MacOS the hosts file can be found at ***/etc/hosts***.
 On Windows the hosts file can be found at ***C:\Windows\System32\drivers\etc\hosts**.
+
 On Linux or MacOS you will need to use sudo to open the file for writing. In Windows you will need to open the file with ***Run as Administrator***.
 
 Add the following line in at the end of the file:
+
+    MACHINE_IP    overwrite.uploadvulns.thm shell.uploadvulns.thm java.uploadvulns.thm annex.uploadvulns.thm magic.uploadvulns.thm jewel.uploadvulns.thm demo.uploadvulns.thm
+
+Note: ***If you have done this step before then you must remove the previous entry. There should only ever be one line in the file that contains the above URLs. For example, the following example will not work:***
+
+***10.10.10.10    overwrite.uploadvulns.thm shell.uploadvulns.thm java.uploadvulns.thm annex.uploadvulns.thm magic.uploadvulns.thm jewel.uploadvulns.thm demo.uploadvulns.thm***
+
+***MACHINE_IP    overwrite.uploadvulns.thm shell.uploadvulns.thm java.uploadvulns.thm annex.uploadvulns.thm magic.uploadvulns.thm jewel.uploadvulns.thm demo.uploadvulns.thm***
+
