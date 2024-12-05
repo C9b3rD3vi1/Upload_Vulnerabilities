@@ -60,3 +60,4 @@ When files are uploaded to the server, a range of checks should be carried out t
 
 If, however, no such precautions are taken, then we might potentially be able to overwrite existing files on the server. Realistically speaking, the chances are that file permissions on the server will prevent this from being a serious vulnerability. That said, it could still be quite the nuisance, and is worth keeping an eye out for in a pentest or bug hunting environment.
 Let's go through an example before you try this for yourself.
+
